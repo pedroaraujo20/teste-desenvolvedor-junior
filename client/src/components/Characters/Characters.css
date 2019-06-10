@@ -1,0 +1,37 @@
+.character-list {
+    max-width: 100%;
+    margin: 20px auto 0;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;    
+}
+.character-list article {
+    background: #fff;
+    flex:0 0 200px;   
+    margin-right: 20px;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding:20px;
+    margin-bottom:20px;
+}
+.character-list article:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.character-list h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.character-list p {
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.character-list img {
+    border: 5px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
